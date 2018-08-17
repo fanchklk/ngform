@@ -3,6 +3,8 @@ import { Routes, RouterModule } from '@angular/router';
 
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
+import { ExoComponent } from './exo/exo.component';
+import { BindingComponent } from './binding/binding.component';
 
 const routes: Routes = [
   {
@@ -12,6 +14,14 @@ const routes: Routes = [
   {
     path:'about/:id',
     component:AboutComponent
+  },
+  {
+    path:'exo',
+    component:ExoComponent
+  },
+  {
+    path:'binding',
+    component:BindingComponent
   }
 ];
 

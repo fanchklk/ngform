@@ -1,0 +1,8 @@
+<p [class]= "varclass" (click)="changeclasse()" [style]="stylefond">
+  La classe du paragraphe est {{varclass}}
+</p>
+<form>
+  <input type="text" class="txt" name="item" [(ngModel)]="varclass">
+  
+  <input type="submit">
+</form>
